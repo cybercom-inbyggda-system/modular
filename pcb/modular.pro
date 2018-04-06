@@ -1,4 +1,4 @@
-update=2018-04-05 21:30:18
+update=2018-04-06 21:12:36
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=lib
 [eeschema/libraries]
 LibName1=modular-rescue
 LibName2=power
