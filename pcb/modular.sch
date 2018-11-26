@@ -23,7 +23,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L STM32F302CCTx U2
+L modular-rescue:STM32F302CCTx- U2
 U 1 1 5AC504B0
 P 16150 7400
 F 0 "U2" H 10750 9125 50  0000 L BNN
@@ -34,7 +34,7 @@ F 3 "" H 16150 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D2
+L modular-rescue:LED- D2
 U 1 1 5AC50815
 P 6250 11900
 F 0 "D2" H 6250 12000 50  0000 C CNN
@@ -45,7 +45,7 @@ F 3 "" H 6250 11900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C8
+L modular-rescue:C- C8
 U 1 1 5AC508DB
 P 10450 11350
 F 0 "C8" H 10475 11450 50  0000 L CNN
@@ -56,7 +56,7 @@ F 3 "" H 10450 11350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR33
+L modular-rescue:GND- #PWR33
 U 1 1 5AC67D07
 P 16100 9400
 F 0 "#PWR33" H 16100 9150 50  0001 C CNN
@@ -67,7 +67,7 @@ F 3 "" H 16100 9400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR32
+L modular-rescue:+3V3- #PWR32
 U 1 1 5AC67ED0
 P 16100 5400
 F 0 "#PWR32" H 16100 5250 50  0001 C CNN
@@ -78,7 +78,7 @@ F 3 "" H 16100 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_OTG J1
+L modular-rescue:USB_OTG- J1
 U 1 1 5AC67FD9
 P 2450 5100
 F 0 "J1" H 2250 5550 50  0000 L CNN
@@ -89,7 +89,7 @@ F 3 "" H 2600 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR7
+L modular-rescue:GND- #PWR7
 U 1 1 5AC6811D
 P 3300 5900
 F 0 "#PWR7" H 3300 5650 50  0001 C CNN
@@ -100,7 +100,7 @@ F 3 "" H 3300 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FT230XS-R U1
+L modular-rescue:FT230XS-R- U1
 U 1 1 5AC69428
 P 2400 5750
 F 0 "U1" H 4500 6650 60  0000 C CNN
@@ -111,7 +111,7 @@ F 3 "" H 1500 5700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L modular-rescue:R- R4
 U 1 1 5AC69495
 P 4000 5200
 F 0 "R4" V 4080 5200 50  0000 C CNN
@@ -122,7 +122,7 @@ F 3 "" H 4000 5200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R3
+L modular-rescue:R- R3
 U 1 1 5AC69547
 P 3700 5300
 F 0 "R3" V 3780 5300 50  0000 C CNN
@@ -133,7 +133,7 @@ F 3 "" H 3700 5300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C1
+L modular-rescue:C- C1
 U 1 1 5AC69651
 P 3200 5550
 F 0 "C1" H 3225 5650 50  0000 L CNN
@@ -144,7 +144,7 @@ F 3 "" H 3200 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L modular-rescue:C- C2
 U 1 1 5AC69684
 P 3450 5550
 F 0 "C2" H 3475 5650 50  0000 L CNN
@@ -155,7 +155,7 @@ F 3 "" H 3450 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR5
+L modular-rescue:GND- #PWR5
 U 1 1 5AC697C1
 P 2450 5600
 F 0 "#PWR5" H 2450 5350 50  0001 C CNN
@@ -166,7 +166,7 @@ F 3 "" H 2450 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L modular-rescue:C- C3
 U 1 1 5AC6990D
 P 3950 6250
 F 0 "C3" H 3975 6350 50  0000 L CNN
@@ -177,7 +177,7 @@ F 3 "" H 3950 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR15
+L modular-rescue:GND- #PWR15
 U 1 1 5AC69A78
 P 3950 6600
 F 0 "#PWR15" H 3950 6350 50  0001 C CNN
@@ -188,7 +188,7 @@ F 3 "" H 3950 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L modular-rescue:R- R2
 U 1 1 5AC69C12
 P 2900 4650
 F 0 "R2" V 2980 4650 50  0000 C CNN
@@ -199,7 +199,7 @@ F 3 "" H 2900 4650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R1
+L modular-rescue:R- R1
 U 1 1 5AC69CFD
 P 2900 4150
 F 0 "R1" V 2980 4150 50  0000 C CNN
@@ -210,7 +210,7 @@ F 3 "" H 2900 4150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR6
+L modular-rescue:GND- #PWR6
 U 1 1 5AC69DBA
 P 2900 3900
 F 0 "#PWR6" H 2900 3650 50  0001 C CNN
@@ -225,7 +225,7 @@ VBUS_SENSE
 Text Label 6100 5850 0    60   ~ 0
 VBUS_SENSE
 $Comp
-L VCC #PWR16
+L modular-rescue:VCC- #PWR16
 U 1 1 5AC6A00C
 P 4150 4900
 F 0 "#PWR16" H 4150 4750 50  0001 C CNN
@@ -236,7 +236,7 @@ F 3 "" H 4150 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR12
+L modular-rescue:VCC- #PWR12
 U 1 1 5AC6A12C
 P 3900 3350
 F 0 "#PWR12" H 3900 3200 50  0001 C CNN
@@ -247,7 +247,7 @@ F 3 "" H 3900 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L modular-rescue:C- C4
 U 1 1 5AC6A15B
 P 4100 3700
 F 0 "C4" H 4125 3800 50  0000 L CNN
@@ -258,7 +258,7 @@ F 3 "" H 4100 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L modular-rescue:C- C5
 U 1 1 5AC6A1B0
 P 4350 3700
 F 0 "C5" H 4375 3800 50  0000 L CNN
@@ -269,7 +269,7 @@ F 3 "" H 4350 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L modular-rescue:C- C6
 U 1 1 5AC6A1F4
 P 4600 3700
 F 0 "C6" H 4625 3800 50  0000 L CNN
@@ -280,7 +280,7 @@ F 3 "" H 4600 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR13
+L modular-rescue:GND- #PWR13
 U 1 1 5AC6A292
 P 3900 4050
 F 0 "#PWR13" H 3900 3800 50  0001 C CNN
@@ -291,7 +291,7 @@ F 3 "" H 3900 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D5
+L modular-rescue:LED- D5
 U 1 1 5AC6A83B
 P 6700 4150
 F 0 "D5" H 6700 4250 50  0000 C CNN
@@ -302,7 +302,7 @@ F 3 "" H 6700 4150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R11
+L modular-rescue:R- R11
 U 1 1 5AC6AAAE
 P 6700 4550
 F 0 "R11" V 6780 4550 50  0000 C CNN
@@ -313,7 +313,7 @@ F 3 "" H 6700 4550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3V3 #PWR14
+L modular-rescue:+3V3- #PWR14
 U 1 1 5AC6AB87
 P 3950 5750
 F 0 "#PWR14" H 3950 5600 50  0001 C CNN
@@ -324,7 +324,7 @@ F 3 "" H 3950 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR24
+L modular-rescue:+3V3- #PWR24
 U 1 1 5AC6ACCE
 P 6550 3800
 F 0 "#PWR24" H 6550 3650 50  0001 C CNN
@@ -335,7 +335,7 @@ F 3 "" H 6550 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D3
+L modular-rescue:LED- D3
 U 1 1 5AC6AD4E
 P 6350 4150
 F 0 "D3" H 6350 4250 50  0000 C CNN
@@ -346,7 +346,7 @@ F 3 "" H 6350 4150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R9
+L modular-rescue:R- R9
 U 1 1 5AC6AD9A
 P 6350 4550
 F 0 "R9" V 6430 4550 50  0000 C CNN
@@ -517,7 +517,7 @@ NoConn ~ 5500 5200
 NoConn ~ 2350 5500
 NoConn ~ 2750 5300
 $Comp
-L GND #PWR17
+L modular-rescue:GND- #PWR17
 U 1 1 5AC74DEC
 P 5600 5300
 F 0 "#PWR17" H 5600 5050 50  0001 C CNN
@@ -531,7 +531,7 @@ Wire Wire Line
 	5500 5300 5600 5300
 NoConn ~ 5500 5550
 $Comp
-L Conn_02x08_Counter_Clockwise J4
+L modular-rescue:Conn_02x08_Counter_Clockwise- J4
 U 1 1 5AC7ACC8
 P 2750 12350
 F 0 "J4" H 2800 12750 50  0000 C CNN
@@ -542,7 +542,7 @@ F 3 "" H 2750 12350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV1
+L modular-rescue:POT- RV1
 U 1 1 5AC8956C
 P 6200 8950
 F 0 "RV1" V 6025 8950 50  0000 C CNN
@@ -553,7 +553,7 @@ F 3 "" H 6200 8950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x03 J2
+L modular-rescue:Conn_01x03- J2
 U 1 1 5AC8A667
 P 2650 8800
 F 0 "J2" H 2650 9000 50  0000 C CNN
@@ -564,7 +564,7 @@ F 3 "" H 2650 8800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR2
+L modular-rescue:GND- #PWR2
 U 1 1 5AC8A6E0
 P 2250 9000
 F 0 "#PWR2" H 2250 8750 50  0001 C CNN
@@ -575,7 +575,7 @@ F 3 "" H 2250 9000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR1
+L modular-rescue:VCC- #PWR1
 U 1 1 5AC8A733
 P 2250 8600
 F 0 "#PWR1" H 2250 8450 50  0001 C CNN
@@ -594,11 +594,11 @@ Wire Wire Line
 Wire Wire Line
 	2250 8900 2250 9000
 Text Label 2250 8800 2    60   ~ 0
-OUTPUT1
+OUTPUT
 Wire Wire Line
 	2250 8800 2450 8800
 $Comp
-L Conn_01x03 J3
+L modular-rescue:Conn_01x03- J3
 U 1 1 5AC8A9B7
 P 2650 9900
 F 0 "J3" H 2650 10100 50  0000 C CNN
@@ -609,7 +609,7 @@ F 3 "" H 2650 9900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR4
+L modular-rescue:GND- #PWR4
 U 1 1 5AC8A9BD
 P 2250 10100
 F 0 "#PWR4" H 2250 9850 50  0001 C CNN
@@ -620,7 +620,7 @@ F 3 "" H 2250 10100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR3
+L modular-rescue:VCC- #PWR3
 U 1 1 5AC8A9C3
 P 2250 9700
 F 0 "#PWR3" H 2250 9550 50  0001 C CNN
@@ -639,11 +639,11 @@ Wire Wire Line
 Wire Wire Line
 	2250 10000 2250 10100
 Text Label 2250 9900 2    60   ~ 0
-OUTPUT2
+OUTPUT
 Wire Wire Line
 	2250 9900 2450 9900
 $Comp
-L Conn_01x03 J5
+L modular-rescue:Conn_01x03- J5
 U 1 1 5AC8AA99
 P 4000 8800
 F 0 "J5" H 4000 9000 50  0000 C CNN
@@ -654,7 +654,7 @@ F 3 "" H 4000 8800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR9
+L modular-rescue:GND- #PWR9
 U 1 1 5AC8AA9F
 P 3600 9000
 F 0 "#PWR9" H 3600 8750 50  0001 C CNN
@@ -665,7 +665,7 @@ F 3 "" H 3600 9000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR8
+L modular-rescue:VCC- #PWR8
 U 1 1 5AC8AAA5
 P 3600 8600
 F 0 "#PWR8" H 3600 8450 50  0001 C CNN
@@ -688,7 +688,7 @@ INPUT1
 Wire Wire Line
 	3600 8800 3800 8800
 $Comp
-L Conn_01x03 J6
+L modular-rescue:Conn_01x03- J6
 U 1 1 5AC8AAB1
 P 4000 9900
 F 0 "J6" H 4000 10100 50  0000 C CNN
@@ -699,7 +699,7 @@ F 3 "" H 4000 9900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR11
+L modular-rescue:GND- #PWR11
 U 1 1 5AC8AAB7
 P 3600 10100
 F 0 "#PWR11" H 3600 9850 50  0001 C CNN
@@ -710,7 +710,7 @@ F 3 "" H 3600 10100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR10
+L modular-rescue:VCC- #PWR10
 U 1 1 5AC8AABD
 P 3600 9700
 F 0 "#PWR10" H 3600 9550 50  0001 C CNN
@@ -733,7 +733,7 @@ INPUT2
 Wire Wire Line
 	3600 9900 3800 9900
 $Comp
-L +3V3 #PWR21
+L modular-rescue:+3V3- #PWR21
 U 1 1 5AC8B675
 P 6200 8700
 F 0 "#PWR21" H 6200 8550 50  0001 C CNN
@@ -744,7 +744,7 @@ F 3 "" H 6200 8700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR22
+L modular-rescue:GND- #PWR22
 U 1 1 5AC8B6CB
 P 6200 9200
 F 0 "#PWR22" H 6200 8950 50  0001 C CNN
@@ -763,7 +763,7 @@ KNOB
 Wire Wire Line
 	6350 8950 6450 8950
 $Comp
-L SW_Push SW1
+L modular-rescue:SW_Push- SW1
 U 1 1 5AC8C700
 P 6700 10050
 F 0 "SW1" H 6750 10150 50  0000 L CNN
@@ -774,7 +774,7 @@ F 3 "" H 6700 10250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L modular-rescue:R- R6
 U 1 1 5AC8C9F3
 P 6150 10050
 F 0 "R6" V 6230 10050 50  0000 C CNN
@@ -785,7 +785,7 @@ F 3 "" H 6150 10050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR27
+L modular-rescue:GND- #PWR27
 U 1 1 5AC8CB6B
 P 7100 10150
 F 0 "#PWR27" H 7100 9900 50  0001 C CNN
@@ -796,7 +796,7 @@ F 3 "" H 7100 10150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR18
+L modular-rescue:+3V3- #PWR18
 U 1 1 5AC8CBC7
 P 5800 9950
 F 0 "#PWR18" H 5800 9800 50  0001 C CNN
@@ -822,7 +822,7 @@ Wire Wire Line
 	6400 9850 6400 10050
 Connection ~ 6400 10050
 $Comp
-L SW_Push SW2
+L modular-rescue:SW_Push- SW2
 U 1 1 5AC8D1FD
 P 6700 10800
 F 0 "SW2" H 6750 10900 50  0000 L CNN
@@ -833,7 +833,7 @@ F 3 "" H 6700 11000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L modular-rescue:R- R7
 U 1 1 5AC8D203
 P 6150 10800
 F 0 "R7" V 6230 10800 50  0000 C CNN
@@ -844,7 +844,7 @@ F 3 "" H 6150 10800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR28
+L modular-rescue:GND- #PWR28
 U 1 1 5AC8D209
 P 7100 10900
 F 0 "#PWR28" H 7100 10650 50  0001 C CNN
@@ -855,7 +855,7 @@ F 3 "" H 7100 10900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR19
+L modular-rescue:+3V3- #PWR19
 U 1 1 5AC8D20F
 P 5800 10700
 F 0 "#PWR19" H 5800 10550 50  0001 C CNN
@@ -881,7 +881,7 @@ Wire Wire Line
 	6400 10600 6400 10800
 Connection ~ 6400 10800
 $Comp
-L R R8
+L modular-rescue:R- R8
 U 1 1 5AC8D64F
 P 6250 12300
 F 0 "R8" V 6330 12300 50  0000 C CNN
@@ -892,7 +892,7 @@ F 3 "" H 6250 12300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR23
+L modular-rescue:+3V3- #PWR23
 U 1 1 5AC8DAD0
 P 6250 11650
 F 0 "#PWR23" H 6250 11500 50  0001 C CNN
@@ -907,7 +907,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 12050 6250 12150
 $Comp
-L LED D1
+L modular-rescue:LED- D1
 U 1 1 5AC8E136
 P 5850 11900
 F 0 "D1" H 5850 12000 50  0000 C CNN
@@ -918,7 +918,7 @@ F 3 "" H 5850 11900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R5
+L modular-rescue:R- R5
 U 1 1 5AC8E13C
 P 5850 12300
 F 0 "R5" V 5930 12300 50  0000 C CNN
@@ -929,7 +929,7 @@ F 3 "" H 5850 12300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR20
+L modular-rescue:+3V3- #PWR20
 U 1 1 5AC8E142
 P 5850 11650
 F 0 "#PWR20" H 5850 11500 50  0001 C CNN
@@ -944,7 +944,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 12050 5850 12150
 $Comp
-L LED D6
+L modular-rescue:LED- D6
 U 1 1 5AC8E1BE
 P 7000 11900
 F 0 "D6" H 7000 12000 50  0000 C CNN
@@ -955,7 +955,7 @@ F 3 "" H 7000 11900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R12
+L modular-rescue:R- R12
 U 1 1 5AC8E1C4
 P 7000 12300
 F 0 "R12" V 7080 12300 50  0000 C CNN
@@ -966,7 +966,7 @@ F 3 "" H 7000 12300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR26
+L modular-rescue:+3V3- #PWR26
 U 1 1 5AC8E1CA
 P 7000 11650
 F 0 "#PWR26" H 7000 11500 50  0001 C CNN
@@ -981,7 +981,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 12050 7000 12150
 $Comp
-L LED D4
+L modular-rescue:LED- D4
 U 1 1 5AC8E1D2
 P 6600 11900
 F 0 "D4" H 6600 12000 50  0000 C CNN
@@ -992,7 +992,7 @@ F 3 "" H 6600 11900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R10
+L modular-rescue:R- R10
 U 1 1 5AC8E1D8
 P 6600 12300
 F 0 "R10" V 6680 12300 50  0000 C CNN
@@ -1003,7 +1003,7 @@ F 3 "" H 6600 12300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR25
+L modular-rescue:+3V3- #PWR25
 U 1 1 5AC8E1DE
 P 6600 11650
 F 0 "#PWR25" H 6600 11500 50  0001 C CNN
@@ -1034,7 +1034,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 12450 7000 12550
 $Comp
-L Conn_01x02 J7
+L modular-rescue:Conn_01x02- J7
 U 1 1 5AC8EF50
 P 9150 6200
 F 0 "J7" H 9150 6300 50  0000 C CNN
@@ -1045,7 +1045,7 @@ F 3 "" H 9150 6200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R13
+L modular-rescue:R- R13
 U 1 1 5AC8F14C
 P 9550 6450
 F 0 "R13" V 9630 6450 50  0000 C CNN
@@ -1056,7 +1056,7 @@ F 3 "" H 9550 6450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR30
+L modular-rescue:GND- #PWR30
 U 1 1 5AC8F51E
 P 9550 6700
 F 0 "#PWR30" H 9550 6450 50  0001 C CNN
@@ -1074,7 +1074,7 @@ Wire Wire Line
 	9550 6600 9550 6700
 Connection ~ 9550 6200
 $Comp
-L +3V3 #PWR29
+L modular-rescue:+3V3- #PWR29
 U 1 1 5AC8FA74
 P 9550 6000
 F 0 "#PWR29" H 9550 5850 50  0001 C CNN
@@ -1089,7 +1089,7 @@ Wire Wire Line
 Wire Wire Line
 	9550 6100 9550 6000
 $Comp
-L SW_Push SW3
+L modular-rescue:SW_Push- SW3
 U 1 1 5AC905E6
 P 10350 5250
 F 0 "SW3" H 10400 5350 50  0000 L CNN
@@ -1100,7 +1100,7 @@ F 3 "" H 10350 5450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C7
+L modular-rescue:C- C7
 U 1 1 5AC90921
 P 9850 5250
 F 0 "C7" H 9875 5350 50  0000 L CNN
@@ -1123,7 +1123,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 5550 9850 5400
 $Comp
-L GND #PWR31
+L modular-rescue:GND- #PWR31
 U 1 1 5AC90E82
 P 10100 4850
 F 0 "#PWR31" H 10100 4600 50  0001 C CNN
@@ -1142,7 +1142,7 @@ Wire Wire Line
 	10100 6000 10650 6000
 Connection ~ 10100 5550
 $Comp
-L +3V3 #PWR?
+L modular-rescue:+3V3- #PWR?
 U 1 1 5BD730D3
 P 15850 10250
 F 0 "#PWR?" H 15850 10100 50  0001 C CNN
@@ -1153,7 +1153,7 @@ F 3 "" H 15850 10250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L modular-rescue:GND- #PWR?
 U 1 1 5BD73159
 P 13400 10300
 F 0 "#PWR?" H 13400 10050 50  0001 C CNN
@@ -1241,7 +1241,7 @@ Wire Wire Line
 	15850 10350 15850 10250
 NoConn ~ 13800 10550
 $Comp
-L GND #PWR?
+L modular-rescue:GND- #PWR?
 U 1 1 5BECEB98
 P 15900 11100
 F 0 "#PWR?" H 15900 10850 50  0001 C CNN
@@ -1279,4 +1279,16 @@ Wire Wire Line
 	10300 7600 10650 7600
 Wire Wire Line
 	13350 10450 13800 10450
+Wire Wire Line
+	21650 7700 22000 7700
+Text Label 22000 7700 0    50   ~ 0
+OUTPUT
+Wire Wire Line
+	21650 7400 21950 7400
+Wire Wire Line
+	21650 7800 22000 7800
+Text Label 21950 7400 0    50   ~ 0
+INPUT1
+Text Label 22000 7800 0    50   ~ 0
+INPUT2
 $EndSCHEMATC
